@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/jpg" href="./assets/icono.png">
+  </head>
+  <body>
+    <div class="pasarela">
+    <h1>ZINLI</h1>
+    <p>Pasarela de pago para ZINLI</p>
+    </div>
+    <br>
+    <form name="calcular">
+      <table class="tabla">
+        <caption>Calculador de Tarifas</caption>
+        <div>
+          <td>Monto de su pago:</td>
+          <td><input type="text" name="monto" size="14" maxlength="200"></td>
+        </div>
+        <div>
+          <td colspan="2" align="justify"><input class="button" type="button" value="Calcular" onclick="calcula()"></td>
+        </div>
+        <tr>
+          <td>Porcentaje 1%:</td>
+          <td colspan="4" name="tarifa" id="tarifa"></td>
+      </tr>
+        <div>
+          <td>Monto a pagar:</td>
+          <td colspan="4" name="tarifatotal" id="total"></td>
+        </div>
+      </table>
+      <p>Al recargar con tarjeta de crédito o débito el costo es tan solo 1% + ITBMS sobre el monto de tu recarga.<br> Ejemplo: si quieres recargar $100 + 1% comisión + 0.07 ITBMS = Dólares 101.07. </p>
+    </form>
+    <script src="./JS/app.js"></script>
+  </body>
+</html>

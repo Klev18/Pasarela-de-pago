@@ -1,0 +1,27 @@
+body{
+    background: rgb(0, 0, 0);
+    background-repeat: no-repeat ;
+    background-image: url(/assets/fondo.png);
+}
+h1{
+    text-align: center;
+    color: rgb(28, 217, 104);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    text-align: center;
+    font-size:large;
+    color:#fff;
+    font-family:Georgia, Times, 'Times New Roman', serif;
+}
+.tabla{
+    display:block;
+    margin:auto;
+    text-align:start;
+    padding: 40px;
+    background-color: rgb(108,28,211);
+    width: 500px;
+    border-radius: 20px ;
+    color: #fff;
+    font-family:Georgia, Times, 'Times New Roman', serif;
+  }
